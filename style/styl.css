@@ -1,0 +1,60 @@
+body{
+    margin: 0%; padding: 0%; 
+    margin-left: 0%;
+    margin-top: 0%;
+}
+html{
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+}
+header{
+    padding: 30px 100px;
+    background-color: aqua;
+}
+.col-md{ 
+    position: relative;
+    /* text-align: right !important; */
+    left: 500px;
+}
+header text{
+    position: relative;
+    text-align: right;
+}
+.section input{
+    position: relative;
+    left: 200px;
+    bottom: 40px;
+    width: 400px;
+}
+.section{
+    position: relative;
+    background-color: aqua;
+}
+.ins{
+    position: relative;
+    bottom: 50px;
+    text-align: center;
+    color: black;
+
+}
+.foter {
+    position: relative;
+    text-align: center;
+    height: 90px;
+    color: white;
+    background-color: rgb(15, 15, 102);
+}
+.foter h6{
+    position: relative;
+    top: 45px;
+    letter-spacing: 10px;
+}
+#de{
+    margin-left: 560px;
+    width: 200px;
+}
+.row{
+    width: 1200px;
+}
