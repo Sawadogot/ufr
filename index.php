@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -17,7 +18,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <img src="images/Logo_Ufr.png" alt="logo ufr" heigth="90" width="90">
+                    <img src="images/Logo_Ufr.png" alt="logo ufr" heigth="165" width="165">
                 </div>
                 <div class="col-md-8 text-right" id="de">
                     <h4 class="text-right">BURKINA FASO</h4>
@@ -28,39 +29,39 @@
     </header>
     <section class="section">
      <div class="container">
-       <form action="registre.php" method="post" id="stmt">
+       <form action="registre.php" method="POST" id="stmt">
             <h3 class="ins">Fiche d'inscription</h3>
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Noms</label>
-            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <input type="text" class="form-control" id="exampleInputEmail1" name="nom" aria-describedby="emailHelp" required>
         </div>
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Prénoms</label>
-            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <input type="text" class="form-control" id="exampleInputEmail1" name="prenom" aria-describedby="emailHelp" required>
         </div>
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Date de naisance</label>
-            <input type="date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <input type="date" class="form-control" id="exampleInputEmail1" name="date_naissance" aria-describedby="emailHelp" required>
         </div>
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Genre</label>
-            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <input type="text" class="form-control" id="exampleInputEmail1" name="genre" aria-describedby="emailHelp" required>
         </div>
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Date d'admission</label>
-            <input type="date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <input type="date" class="form-control" id="exampleInputEmail1" name="admission" aria-describedby="emailHelp" required>
         </div>
         <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">I.C</label>
-            <input type="number" class="form-control" id="exampleInputPassword1">
+            <label for="exampleInputPassword1" class="form-label">Personne à prévenir</label>
+            <input type="number" class="form-control" name="contact" id="exampleInputPassword1" required>
         </div>
-        <button type="submit" class="btn btn-danger">Envoyer</button>
+        <button type="submit" id="btnt"name="registre" class="btn btn-danger">Envoyer</button>
         </form>
             </div>
     </section>
     <section class="foter">
         <footer>
-            <h6>copyrigthc2019 STMT_DEV.....@ </h6>
+            <p>© Copyright 2023. Tous droits Réservés. Application d'inscription l'UFR/SDS. STMT_DEV.....@ </p>
         </footer>
         </section>
     </body>

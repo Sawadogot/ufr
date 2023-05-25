@@ -11,7 +11,7 @@ html{
 }
 header{
     padding: 30px 100px;
-    background-color: aqua;
+    background-color: white;
 }
 .col-md{ 
     position: relative;
@@ -24,37 +24,95 @@ header text{
 }
 .section input{
     position: relative;
-    left: 200px;
+    left: 500px;
     bottom: 40px;
     width: 400px;
+    top: 100px;
+}
+.section label{
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    left: 250px;
+    top: 150px;
+}
+#btnt{
+    position: relative;
+    top: 120px;
+    left: 450px;
+    width: 150px;
 }
 .section{
     position: relative;
-    background-color: aqua;
+    background-color: rgb(70, 231, 191);
+    height: 800px;
 }
 .ins{
+    font-size: 50px;
     position: relative;
     bottom: 50px;
     text-align: center;
     color: black;
+    top: 60px;
 
 }
 .foter {
     position: relative;
     text-align: center;
     height: 90px;
-    color: white;
-    background-color: rgb(15, 15, 102);
+    background-color: black;
+  
+    padding-top: 30px;
 }
-.foter h6{
+.foter p{
     position: relative;
-    top: 45px;
-    letter-spacing: 10px;
+    top: 15px;
+    color: white;
+
 }
 #de{
-    margin-left: 560px;
+    margin-left: 500px;
     width: 200px;
 }
 .row{
     width: 1200px;
+    height: 75px;
 }
+.img{
+    padding-bottom: 10px;
+}
+/* style2 */
+/* #but{
+    position: relative;
+    left: 400px;
+    top: 300px;
+    text-align: center;
+    width: 300px;
+    height: 150px;
+} */
+.btn-liste{
+    width: 300px;
+    height: 100px;
+      
+}
+/* #lis{
+    position: relative;
+    left: 200px;
+} */
+/* STYLE3 */
+img{
+    padding-left: 75px;
+  }
+  .den{
+      text-align: center;
+      font-size: 50px;
+      letter-spacing: 4px;
+      position: relative;
+      bottom: 100px;
+  }
+  h2{
+   margin-left: 50px;
+  }
+  td{
+    text-align: center;
+  }
