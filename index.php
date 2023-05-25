@@ -18,7 +18,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <img src="images/Logo_Ufr.png" alt="logo ufr" heigth="165" width="165">
+                   <a href="liste.php"> <img src="images/Logo_Ufr.png" alt="logo ufr" heigth="165" width="165"></a>
                 </div>
                 <div class="col-md-8 text-right" id="de">
                     <h4 class="text-right">BURKINA FASO</h4>
@@ -62,6 +62,7 @@
     <section class="foter">
         <footer>
             <p>© Copyright 2023. Tous droits Réservés. Application d'inscription l'UFR/SDS. STMT_DEV.....@ </p>
+            <a href="liste.php"><button class="petit">LISTES</button></a>
         </footer>
         </section>
     </body>

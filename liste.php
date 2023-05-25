@@ -9,17 +9,18 @@
 </head>
 <body>
   <section>
-    <img src="images/Logo_Ufr.png" alt="logo ufr" heigth="100" width="100">
+    <a href="index.php"> <img src="images/Logo_Ufr.png" alt="logo ufr" heigth="100" width="100"></a>
         <h1 class="den">
             Liste des inscrits UFR/SDS
         </h1>
     </section>
     <table>
-        <tr>
+        <tr cass="tabe">
+          <!-- <th><h2>Id</h2></th> -->
           <th><h2>Nom</h2></th>
-          <th><h2> Prénoms</h2></th>
-          <th><h2> Date de naissance</h2></th>
-          <th><h2> Genre</h2></th>
+          <th><h2>Prénoms</h2></th>
+          <th><h2>Date de naissance</h2></th>
+          <th><h2>Genre</h2></th>
           <th><h2>Date d'admission</h2></th>
           <th><h2>Personne à prevenir</h2></th>
         </tr>
@@ -30,6 +31,7 @@
        if($result->rowcount()>0){
         while($row=$result->fetch(PDO::FETCH_ASSOC)){
           echo" <tr>";
+          // echo" <td>".$row["id"]." </td>";
           echo" <td>".$row["nom"]." </td>";
           echo" <td>".$row["prenom"]." </td>";
           echo" <td>".$row["date_naissance"]." </td>";
@@ -43,10 +45,11 @@
        ?>
       </table>
 
-    
+      
     <section class="foter mt-2 pt-2">
         <footer>
             <p>© Copyright 2023. Tous droits Réservés. Application d'inscription l'UFR/SDS. STMT_DEV.....@ </p>
+            <a href="index.php"><button class="petit"> RETOUR</button></a>
         </footer>
     </section>
 </body>
