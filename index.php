@@ -1,69 +1,61 @@
-
-<!DOCTYPE html>
-<html lang="fr">
-
+ <!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/bootstrap-5.2.3-dist/css/bootstrap.min.css">
-   <link rel="stylesheet" href="style/styl.css">
-    <title>Inscription ufr</title>
-    <style>
-    
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/bootstrap-5.2.3-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style/main.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js"> </script>
+  <script src="script.js" defer></script>
+  <title>Mon site - Connexion</title>
 </head>
+
 <body>
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                   <a href="liste.php"> <img src="images/Logo_Ufr.png" alt="logo ufr" heigth="165" width="165"></a>
-                </div>
-                <div class="col-md-8 text-right" id="de">
-                    <h4 class="text-right">BURKINA FASO</h4>
-                    <P class="text-right">Unité Progrès Justice</P>
-                </div>
-            </div>
+  <div class="container">
+    <div class="logo">
+      <i class="fas fa-user"></i>
+    </div>
+
+    <div class="tab-body" data-id="connexion">
+      <form>
+        <div class="row">
+          <i class="far fa-user"></i>
+          <input type="email" class="input" placeholder="Adresse Mail">
         </div>
-    </header>
-    <section class="section">
-     <div class="container">
-       <form action="registre.php" method="POST" id="stmt">
-            <h3 class="ins">Fiche d'inscription</h3>
-        <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Noms</label>
-            <input type="text" class="form-control" id="exampleInputEmail1" name="nom" aria-describedby="emailHelp" required>
+        <div class="row">
+          <i class="fas fa-lock"></i>
+          <input placeholder="Mot de Passe" type="password" class="input">
         </div>
-        <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Prénoms</label>
-            <input type="text" class="form-control" id="exampleInputEmail1" name="prenom" aria-describedby="emailHelp" required>
+        <a href="#" class="link">Mot de passe oublié ?</a>
+        <a href="seconnerter.php"><button class="btn" type="button">Connexion</button></a>
+      </form>
+    </div>
+
+    <div class="tab-body" data-id="inscription">
+      <form>
+        <div class="row">
+          <i class="far fa-user"></i>
+          <input type="email" class="input" placeholder="Adresse Mail">
         </div>
-        <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Date de naisance</label>
-            <input type="date" class="form-control" id="exampleInputEmail1" name="date_naissance" aria-describedby="emailHelp" required>
+        <div class="row">
+          <i class="fas fa-lock"></i>
+          <input type="password" class="input" placeholder="Mot de Passe">
         </div>
-        <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Genre</label>
-            <input type="text" class="form-control" id="exampleInputEmail1" name="genre" aria-describedby="emailHelp" required>
+        <div class="row">
+          <i class="fas fa-lock"></i>
+          <input type="password" class="input" placeholder="Confirmer Mot de Passe">
         </div>
-        <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Date d'admission</label>
-            <input type="date" class="form-control" id="exampleInputEmail1" name="admission" aria-describedby="emailHelp" required>
-        </div>
-        <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Personne à prévenir</label>
-            <input type="number" class="form-control" name="contact" id="exampleInputPassword1" required>
-        </div>
-        <button type="submit" id="btnt"name="registre" class="btn btn-danger">Envoyer</button>
-        </form>
-            </div>
-    </section>
-    <section class="foter">
-        <footer>
-            <p>© Copyright 2023. Tous droits Réservés. Application d'inscription l'UFR/SDS. STMT_DEV.....@ </p>
-            <a href="liste.php"><button class="petit">LISTES</button></a>
-        </footer>
-        </section>
-    </body>
-    </html>
+        <button class="btn" type="button">Inscription</button>
+      </form>
+    </div>
+
+    <div class="tab-footer">
+      <a class="tab-link active" data-ref="connexion" href="javascript:void(0)">Connexion</a>
+      <a class="tab-link" data-ref="inscription" href="javascript:void(0)">Inscription</a>
+    </div>
+  </div>
+  <script src="style/bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="style/thera.js"></script>
+</body>
+
+</html>

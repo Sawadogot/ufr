@@ -13,3 +13,23 @@ $(document).ready(function(){
         $(this).addClass('active');
     });
 });
+
+
+
+var modal = document.getElementById("myModal");
+var btn = document.getElementById("deleteButton");
+var span = document.getElementsByClassName("close")[0];
+var confirmDelete = document.getElementById("confirmDelete");
+
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+confirmDelete.onclick = function() {
+  // Logique pour effectuer la suppression
+  modal.style.display = "none";
+}

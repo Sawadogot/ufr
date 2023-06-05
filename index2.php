@@ -7,12 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/bootstrap-5.2.3-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style/styl.css">
-    <title>liste ufr</title>
+    <title>index2</title>
     <style>
     
     </style>
 </head>
-<body><br><br><br><br><br>
+<body>
     <div class="container">
         <div class="row d-flex fd-row">
             <div class="col-md-3 offset-5 mt-5 pt-5 align-items-center">
